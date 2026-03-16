@@ -47,8 +47,8 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Contact Information</h3>
             <ul className="space-y-2 text-sm">
-              <li>Phone: +374 10 544-041</li>
-              <li>Phone: +374 10 544-042</li>
+              <li>Phone: +374 60 620 516</li>
+              <li>Phone: +374 60 620 553</li>
               <li>Email: visa@mfa.am</li>
               <li className="pt-2 text-gray-400">
                 For technical support and inquiries
