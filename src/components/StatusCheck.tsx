@@ -201,7 +201,7 @@ export default function StatusCheck({ onBack }: { onBack: () => void }) {
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-4">
-                  <p className="text-sm text-gray-600 font-medium mb-1">Expected Decision Date</p>
+                  <p className="text-sm text-gray-600 font-medium mb-1">Decision Date</p>
                   <p className="text-gray-900 font-semibold">{new Date(result.expectedDate).toLocaleDateString()}</p>
                 </div>
               </div>
@@ -209,7 +209,7 @@ export default function StatusCheck({ onBack }: { onBack: () => void }) {
               {result.status === 'approved' && (
                 <div className="bg-green-50 border border-green-200 rounded-lg p-4">
                   <p className="text-sm text-green-700">
-                    Congratulations! Your visa has been approved. You can now proceed with payment and download your e-visa.
+                    Congratulations! Your visa has been approved. You can now proceed with your e-visa.
                   </p>
                 </div>
               )}
@@ -246,7 +246,7 @@ export default function StatusCheck({ onBack }: { onBack: () => void }) {
             If you cannot find your application or have questions about your visa status, please contact us:
           </p>
           <div className="space-y-2 text-sm text-gray-700">
-            <p><strong>Phone:</strong> +374 10 544-041</p>
+            <p><strong>Phone:</strong> +374 60 620 516</p>
             <p><strong>Email:</strong> visa@mfa.am</p>
             <p><strong>Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM (GMT+4)</p>
           </div>
