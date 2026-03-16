@@ -41,7 +41,7 @@ Republic of Armenia
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
             <FileText className="w-10 h-10 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Easy Application</h3>
-            <p className="text-blue-100">
+            <p className="text-dark-100">
               Simple online form with step-by-step guidance through the application process
             </p>
           </div>
@@ -49,7 +49,7 @@ Republic of Armenia
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
             <Clock className="w-10 h-10 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Fast Processing</h3>
-            <p className="text-blue-100">
+            <p className="text-dark-100">
               Processing within 3-5 business days. Maximum processing time: 55 days
             </p>
           </div>
@@ -57,7 +57,7 @@ Republic of Armenia
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
             <CheckCircle className="w-10 h-10 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Secure & Reliable</h3>
-            <p className="text-blue-100">
+            <p className="text-dark-100">
               Secure payment gateway and data protection for all applications
             </p>
           </div>
