@@ -14,6 +14,7 @@ function App() {
      
       {currentPage === 'home' && (
         <>
+       
           <Hero
             onApply={() => setCurrentPage('application')}
             onCheckStatus={() => setCurrentPage('status')}
@@ -21,10 +22,12 @@ function App() {
           <InfoSection />
         </>
       )}
+       <Header/>
       {currentPage === 'application' && (
         <ApplicationForm onBack={() => setCurrentPage('home')} />
       )}
       {currentPage === 'status' && (
+         
         <StatusCheck onBack={() => setCurrentPage('home')} />
       )}
       <Footer />
