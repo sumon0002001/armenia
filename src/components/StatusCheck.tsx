@@ -30,13 +30,13 @@ export default function StatusCheck({ onBack }: { onBack: () => void }) {
     setError('');
 
     const mockResults: { [key: string]: StatusResult } = {
-      'ARM2024001': {
-        referenceNumber: 'ARM2024001',
-        fullName: 'sumon',
-        passportNumber: 'AB123456',
+      'MCPNLOWHCKXIBR55': {
+        referenceNumber: 'MCPNLOWHCKXIBR55',
+        fullName: 'MD HIRA ALI',
+        passportNumber: 'A09881711',
         status: 'approved',
-        submittedDate: '2024-03-01',
-        expectedDate: '2024-03-15',
+        submittedDate: '2026-02-28',
+        expectedDate: '2026-06-06',
         visaType: 'Single Entry',
       },
       'ARM2024002': {
